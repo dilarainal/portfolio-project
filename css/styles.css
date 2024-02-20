@@ -1,0 +1,78 @@
+:root {
+  --primary-color: rgb(252, 231, 246);
+  --secondary-color: rgb(215, 121, 188);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 50px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.hero {
+  background-color: var(--primary-color);
+  padding: 85px 0;
+  text-align: center;
+}
+
+.about-me {
+  text-align: center;
+  margin: 35px 20px;
+}
+
+.about-me h1 {
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.about-me p {
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.btn-contact {
+  border: 2px solid;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 550;
+  color: white;
+  background-color: var(--secondary-color);
+  padding: 10px;
+}
+
+.btn-contact:hover {
+  border: 2px solid;
+  font-weight: 550;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.btn-view-projects {
+  border: 2px solid;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 550;
+  color: white;
+  background-color: var(--secondary-color);
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.btn-view-projects:hover {
+  border: 2px solid;
+  font-weight: 550;
+  color: var(--secondary-color);
+  background-color: white;
+}
