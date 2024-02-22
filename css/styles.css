@@ -136,4 +136,43 @@ h6 {
     justify-content: center;
     text-align: center;
   }
+  .hero h1 {
+    font-size: 45px;
+  }
+  .about-me h1 {
+    font-size: 30px;
+    line-height: normal;
+    margin-top: 20px;
+  }
+  .about-me p {
+    font-size: 15px;
+    line-height: normal;
+    font-weight: lighter;
+  }
+}
+
+@media (max-width: 530px) {
+  .about-me {
+    margin: 15px;
+  }
+  .about-me h1 {
+    font-size: 20px;
+    margin-bottom: 3px;
+  }
+  .about-me p {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+}
+
+@media (min-width: 770px) {
+  .about-me {
+    margin: 70px 0;
+  }
+}
+
+@media (min-width: 991px) {
+  .selfie-image {
+    max-width: 400px;
+  }
 }
