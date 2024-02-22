@@ -21,10 +21,21 @@ h3 {
   font-size: 30px;
 }
 
+h6 {
+  text-align: center;
+  margin: 15px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+
 .hero {
   background-color: var(--primary-color);
   padding: 85px 0;
   text-align: center;
+}
+
+.weather-project-desc h3 {
+  color: var(--secondary-color);
 }
 
 .about-me {
@@ -41,6 +52,23 @@ h3 {
   line-height: 1.8;
   font-size: 18px;
 }
+
+/* footer */
+.mail-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  margin-bottom: 40px;
+  color: black;
+}
+/* end footer */
 
 .btn-contact {
   border: 2px solid;
@@ -68,6 +96,7 @@ h3 {
   background-color: var(--secondary-color);
   padding: 10px;
   margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .btn-view-projects:hover {
@@ -75,4 +104,36 @@ h3 {
   font-weight: 550;
   color: var(--secondary-color);
   background-color: white;
+}
+
+.button-view-more-projects {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+.btn-view-more-projects {
+  border: 2px solid;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 550;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.btn-view-more-projects:hover {
+  border: 2px solid;
+  font-weight: 550;
+  color: white;
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 770px) {
+  .weather-project-desc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
