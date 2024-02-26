@@ -58,6 +58,11 @@ h6 {
   color: var(--secondary-color);
 }
 
+.contact-title {
+  font-size: 50px;
+  color: var(--secondary-color);
+}
+
 /* footer */
 .mail-link {
   display: flex;
@@ -136,6 +141,10 @@ h6 {
 }
 
 @media (max-width: 770px) {
+  .project-title {
+    font-size: 45px;
+  }
+
   .weather-project-desc {
     display: flex;
     justify-content: center;
