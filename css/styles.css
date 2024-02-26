@@ -53,6 +53,11 @@ h6 {
   font-size: 18px;
 }
 
+.project-title {
+  font-size: 60px;
+  color: var(--secondary-color);
+}
+
 /* footer */
 .mail-link {
   display: flex;
