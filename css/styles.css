@@ -63,6 +63,18 @@ h6 {
   color: var(--secondary-color);
 }
 
+.connect-links {
+  color: var(--secondary-color);
+}
+
+.box {
+  border: 1px solid var(--primary-color);
+  border-radius: 15px;
+  background-color: var(--primary-color);
+  padding: 30px;
+  margin: 40px;
+}
+
 /* footer */
 .mail-link {
   display: flex;
