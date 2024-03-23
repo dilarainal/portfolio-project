@@ -29,7 +29,7 @@
   <body>
     <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">Dilara Inal</a>
+        <a class="navbar-brand" href="/" title="Homepage">Dilara Inal</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -43,10 +43,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" href="/">Home</a>
-            <a class="nav-link" href="/about.html">About Me</a>
-            <a class="nav-link" href="/work.html">Projects</a>
-            <a class="nav-link active" href="/contact.html">Contact</a>
+            <a class="nav-link" href="/" title="Homepage">Home</a>
+            <a class="nav-link" href="/about.html" title="About Dilara"
+              >About Me</a
+            >
+            <a class="nav-link" href="/work.html" title="Dilara's Projects"
+              >Projects</a
+            >
+            <a
+              class="nav-link active"
+              href="/contact.html"
+              title="Contact Dilara"
+              >Contact</a
+            >
           </div>
         </div>
       </div>
@@ -66,7 +75,7 @@
 
       <div class="container contact-links-style text-center p-5">
         <div class="row">
-          <div class="col-4">
+          <div class="col">
             <a
               class="connect-links text-decoration-none"
               href="https://www.linkedin.com/in/dilarainal/"
@@ -77,7 +86,7 @@
               >
             </a>
           </div>
-          <div class="col-4">
+          <div class="col">
             <a
               class="connect-links text-decoration-none"
               href="https://github.com/dilarainal"
@@ -85,17 +94,6 @@
               ><i class="connect-links fa-brands fa-github"></i>
               <a class="d-none d-md-block text-decoration-none connect-links">
                 GitHub</a
-              >
-            </a>
-          </div>
-          <div class="col-4">
-            <a
-              class="connect-links text-decoration-none"
-              href="https://www.instagram.com/di1ara.inal/"
-              target="_blank"
-              ><i class="connect-links fa-brands fa-instagram"></i>
-              <a class="d-none d-md-block text-decoration-none connect-links">
-                Instagram</a
               >
             </a>
           </div>
@@ -126,13 +124,16 @@
             <i class="connect-links fa-brands fa-github"></i
           ></a>
         </div>
-
-        <div class="col">
-          <a href="https://www.instagram.com/di1ara.inal/" target="_blank"
-            ><i class="connect-links fa-brands fa-instagram"></i
-          ></a>
-        </div>
       </div>
     </div>
+    <p class="text-center p-3 text-muted">
+      This project was coded by Dilara, and it is
+      <a
+        class="link text-decoration-none"
+        href="https://github.com/dilarainal/portfolio-project"
+      >
+        open-sourced on GitHub.
+      </a>
+    </p>
   </footer>
 </html>
